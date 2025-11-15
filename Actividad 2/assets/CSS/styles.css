@@ -1,0 +1,15 @@
+/* Fondo claro tipo "lightblue" */
+:root { --soft-blue: #ADD8E6; }          /* color estándar "lightblue" */
+.bg-soft-blue { background-color: var(--soft-blue); }
+
+/* Títulos en rojo para todos los encabezados usados */
+h1, h2, h3, h4, h5, h6 { color: #dc3545 !important; }  /* equivalente a .text-danger, aplicado globalmente */
+
+/* Imagen principal centrada y visible a 400x300, adaptable en móviles */
+.img-400x300 {
+  width: 400px;
+  max-width: 100%;
+  height: 300px;
+  object-fit: cover;   /* recorte proporcional sin deformar */
+  display: block;
+}
